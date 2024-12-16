@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "d423cb46-cdae-47ba-a0ca-4d304ccf369b")
 	(paper "A4")
+	(title_block
+		(title "Prowler Keyboard")
+		(date "2024-12-17")
+		(rev "${VER}")
+	)
 	(lib_symbols
 		(symbol "Device:D"
 			(pin_numbers hide)

@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "f59ff9a4-d8e4-4a48-98cb-573a375605de")
 	(paper "A4")
+	(title_block
+		(title "Prowler Keyboard")
+		(date "2024-12-17")
+		(rev "${VER}")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
