@@ -10,7 +10,9 @@
         "console": false,
         "extrakey": true,
         "mousekey": true,
-        "nkro": true
+        "nkro": true,
+        "rgb_matrix": true,
+        "key_override": true,
     },
     "matrix_pins": {
         "cols": ["GP20", "GP23", "GP26", "GP27", "GP2", "GP1", "GP22", "GP7"],
@@ -20,10 +22,24 @@
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x0506",
-        "vid": "0xFEED"
+        "vid": "0xFEED",
     },
     "split": {
-        "enabled": true
+        "enabled": true,
+        "serial": {
+            "driver": "vendor", 
+            "pin": "GP5",
+        },
+        "usb_detect": {
+            "enabled": true,
+        },
+    },
+    "ws2812": {
+        "driver": "vendor",
+        "pin": "GP8",
+    },
+    "tapping": {
+        "toggle": 2,
     },
     "layouts": {
         "LAYOUT": {
