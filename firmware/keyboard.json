@@ -7,12 +7,13 @@
     "features": {
         "bootmagic": true,
         "command": false,
-        "console": false,
+        "console": true,
         "extrakey": true,
         "mousekey": true,
         "nkro": true,
         "rgb_matrix": true,
         "key_override": true,
+        "debug": true,
     },
     "matrix_pins": {
         "cols": ["GP20", "GP23", "GP26", "GP27", "GP2", "GP1", "GP22", "GP7"],
@@ -27,8 +28,7 @@
     "split": {
         "enabled": true,
         "serial": {
-            "driver": "vendor", 
-            "pin": "GP5",
+            "driver": "vendor",
         },
         "usb_detect": {
             "enabled": true,
