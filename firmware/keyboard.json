@@ -30,8 +30,8 @@
         "serial": {
             "driver": "vendor",
         },
-        "usb_detect": {
-            "enabled": true,
+        "handedness": {
+            "pin": "GP3",
         },
     },
     "ws2812": {
