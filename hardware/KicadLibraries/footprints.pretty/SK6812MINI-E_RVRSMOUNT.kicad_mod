@@ -66,26 +66,6 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -3.048 -1.524)
-		(end -2.54 -1.524)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "92fd624b-a575-4340-913e-d9c0545bf06c")
-	)
-	(fp_line
-		(start 2.54 -1.524)
-		(end 3.048 -1.524)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "3768e0d7-fbfe-4d95-a8bb-651b52749d4e")
-	)
-	(fp_line
 		(start -3.423 0.2)
 		(end -2.396 0.2)
 		(stroke
@@ -268,7 +248,7 @@
 	)
 	(pad "3" smd custom
 		(at -2.794 0.75)
-		(size 1.35 0.635)
+		(size 0.7 0.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
 		(options
@@ -278,9 +258,9 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy -0.772 -0.41) (xy -0.772 0.41019) (xy 0.774 0.41) (xy 0.774 -0.41)
+					(xy 0.774 -0.41) (xy 0.774 0.41) (xy -0.352992 0.41297) (xy -0.768437 0.00041) (xy -0.772 -0.41)
 				)
-				(width 0.001)
+				(width 0)
 				(fill yes)
 			)
 		)
@@ -288,7 +268,7 @@
 	)
 	(pad "3" smd custom
 		(at 2.794 0.75)
-		(size 1.35 0.635)
+		(size 0.7 0.7)
 		(layers "B.Cu" "B.Paste" "B.Mask")
 		(solder_mask_margin 0.102)
 		(options
@@ -298,13 +278,13 @@
 		(primitives
 			(gr_poly
 				(pts
-					(xy 0.772 -0.41) (xy 0.772 0.41019) (xy -0.774 0.41) (xy -0.774 -0.41)
+					(xy -0.774 -0.41) (xy -0.774 0.41) (xy 0.352992 0.41297) (xy 0.768437 0.00041) (xy 0.772 -0.41)
 				)
-				(width 0.001)
+				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "12bbcaa0-8b94-41a7-b79a-752f151d904e")
+		(uuid "b3219319-6c9a-405a-93d2-d36fd7607734")
 	)
 	(pad "4" smd custom
 		(at -2.794 -0.75)
@@ -348,13 +328,13 @@
 	)
 	(model "${KIPRJMOD}/KicadLibraries/footprints.pretty/LED_SK6812MINI-E.step"
 		(offset
-			(xyz 0 -5.1 0.1)
+			(xyz 0 5.1 0.1)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 180)
+			(xyz 0 0 0)
 		)
 	)
 )
