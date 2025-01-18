@@ -120,7 +120,7 @@
             "band_val": true,
         },
         "default": {
-            "val": 128,
+            "val": 64,
         },
         "driver": "ws2812",
         "layout": [
